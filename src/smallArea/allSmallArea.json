@@ -1,0 +1,1758 @@
+{
+    "中西區": [
+        {
+            "cacode": "A01",
+            "caname": "中環"
+        },
+        {
+            "cacode": "A02",
+            "caname": "半山東"
+        },
+        {
+            "cacode": "A03",
+            "caname": "衛城"
+        },
+        {
+            "cacode": "A04",
+            "caname": "山頂"
+        },
+        {
+            "cacode": "A05",
+            "caname": "大學"
+        },
+        {
+            "cacode": "A06",
+            "caname": "觀龍"
+        },
+        {
+            "cacode": "A07",
+            "caname": "堅摩"
+        },
+        {
+            "cacode": "A08",
+            "caname": "西環"
+        },
+        {
+            "cacode": "A09",
+            "caname": "寶翠"
+        },
+        {
+            "cacode": "A10",
+            "caname": "石塘咀"
+        },
+        {
+            "cacode": "A11",
+            "caname": "西營盤"
+        },
+        {
+            "cacode": "A12",
+            "caname": "上環"
+        },
+        {
+            "cacode": "A13",
+            "caname": "東華"
+        },
+        {
+            "cacode": "A14",
+            "caname": "正街"
+        },
+        {
+            "cacode": "A15",
+            "caname": "水街"
+        }
+    ],
+    "九龍城區": [
+        {
+            "cacode": "G01",
+            "caname": "馬頭圍"
+        },
+        {
+            "cacode": "G02",
+            "caname": "宋皇臺"
+        },
+        {
+            "cacode": "G03",
+            "caname": "馬坑涌"
+        },
+        {
+            "cacode": "G04",
+            "caname": "馬頭角"
+        },
+        {
+            "cacode": "G05",
+            "caname": "樂民"
+        },
+        {
+            "cacode": "G06",
+            "caname": "常樂"
+        },
+        {
+            "cacode": "G07",
+            "caname": "何文田"
+        },
+        {
+            "cacode": "G08",
+            "caname": "嘉道理"
+        },
+        {
+            "cacode": "G09",
+            "caname": "太子"
+        },
+        {
+            "cacode": "G10",
+            "caname": "九龍塘"
+        },
+        {
+            "cacode": "G11",
+            "caname": "龍城"
+        },
+        {
+            "cacode": "G12",
+            "caname": "啟德北"
+        },
+        {
+            "cacode": "G13",
+            "caname": "啟德東"
+        },
+        {
+            "cacode": "G15",
+            "caname": "海心"
+        },
+        {
+            "cacode": "G16",
+            "caname": "土瓜灣北"
+        },
+        {
+            "cacode": "G17",
+            "caname": "土瓜灣南"
+        },
+        {
+            "cacode": "G18",
+            "caname": "鶴園海逸"
+        },
+        {
+            "cacode": "G19",
+            "caname": "黃埔東"
+        },
+        {
+            "cacode": "G20",
+            "caname": "黃埔西"
+        },
+        {
+            "cacode": "G21",
+            "caname": "紅磡灣"
+        },
+        {
+            "cacode": "G22",
+            "caname": "紅磡"
+        },
+        {
+            "cacode": "G23",
+            "caname": "家維"
+        },
+        {
+            "cacode": "G24",
+            "caname": "愛民"
+        },
+        {
+            "cacode": "G25",
+            "caname": "愛俊"
+        }
+    ],
+    "元朗區": [
+        {
+            "cacode": "M01",
+            "caname": "豐年"
+        },
+        {
+            "cacode": "M02",
+            "caname": "元朗中心"
+        },
+        {
+            "cacode": "M03",
+            "caname": "鳳翔"
+        },
+        {
+            "cacode": "M04",
+            "caname": "元龍"
+        },
+        {
+            "cacode": "M05",
+            "caname": "十八鄉中"
+        },
+        {
+            "cacode": "M06",
+            "caname": "水邊"
+        },
+        {
+            "cacode": "M07",
+            "caname": "南屏"
+        },
+        {
+            "cacode": "M08",
+            "caname": "北朗"
+        },
+        {
+            "cacode": "M10",
+            "caname": "十八鄉北"
+        },
+        {
+            "cacode": "M12",
+            "caname": "十八鄉西"
+        },
+        {
+            "cacode": "M13",
+            "caname": "屏山南"
+        },
+        {
+            "cacode": "M15",
+            "caname": "廈村"
+        },
+        {
+            "cacode": "M16",
+            "caname": "屏山中"
+        },
+        {
+            "cacode": "M17",
+            "caname": "盛欣"
+        },
+        {
+            "cacode": "M19",
+            "caname": "天耀"
+        },
+        {
+            "cacode": "M20",
+            "caname": "耀祐"
+        },
+        {
+            "cacode": "M21",
+            "caname": "慈祐"
+        },
+        {
+            "cacode": "M22",
+            "caname": "嘉湖南"
+        },
+        {
+            "cacode": "M23",
+            "caname": "瑞愛"
+        },
+        {
+            "cacode": "M24",
+            "caname": "瑞華"
+        },
+        {
+            "cacode": "M25",
+            "caname": "頌華"
+        },
+        {
+            "cacode": "M26",
+            "caname": "頌栢"
+        },
+        {
+            "cacode": "M27",
+            "caname": "嘉湖北"
+        },
+        {
+            "cacode": "M28",
+            "caname": "悅恩"
+        },
+        {
+            "cacode": "M29",
+            "caname": "晴景"
+        },
+        {
+            "cacode": "M30",
+            "caname": "富恩"
+        },
+        {
+            "cacode": "M31",
+            "caname": "逸澤"
+        },
+        {
+            "cacode": "M32",
+            "caname": "天恒"
+        },
+        {
+            "cacode": "M33",
+            "caname": "宏逸"
+        },
+        {
+            "cacode": "M34",
+            "caname": "屏山北"
+        },
+        {
+            "cacode": "M35",
+            "caname": "錦綉花園"
+        },
+        {
+            "cacode": "M36",
+            "caname": "新田"
+        },
+        {
+            "cacode": "M37",
+            "caname": "錦田"
+        },
+        {
+            "cacode": "M38",
+            "caname": "八鄉北"
+        },
+        {
+            "cacode": "M39",
+            "caname": "八鄉南"
+        }
+    ],
+    "北區": [
+        {
+            "cacode": "N01",
+            "caname": "聯和墟"
+        },
+        {
+            "cacode": "N02",
+            "caname": "粉嶺市"
+        },
+        {
+            "cacode": "N03",
+            "caname": "祥華"
+        },
+        {
+            "cacode": "N04",
+            "caname": "華都"
+        },
+        {
+            "cacode": "N05",
+            "caname": "華明"
+        },
+        {
+            "cacode": "N06",
+            "caname": "欣盛"
+        },
+        {
+            "cacode": "N07",
+            "caname": "粉嶺南"
+        },
+        {
+            "cacode": "N08",
+            "caname": "盛福"
+        },
+        {
+            "cacode": "N09",
+            "caname": "清河"
+        },
+        {
+            "cacode": "N10",
+            "caname": "御太"
+        },
+        {
+            "cacode": "N11",
+            "caname": "上水鄉郊"
+        },
+        {
+            "cacode": "N12",
+            "caname": "彩園"
+        },
+        {
+            "cacode": "N13",
+            "caname": "石湖墟"
+        },
+        {
+            "cacode": "N14",
+            "caname": "天平西"
+        },
+        {
+            "cacode": "N15",
+            "caname": "鳳翠"
+        },
+        {
+            "cacode": "N16",
+            "caname": "沙打"
+        },
+        {
+            "cacode": "N17",
+            "caname": "天平東"
+        },
+        {
+            "cacode": "N18",
+            "caname": "皇后山"
+        }
+    ],
+    "南區": [
+        {
+            "cacode": "D01",
+            "caname": "香港仔"
+        },
+        {
+            "cacode": "D02",
+            "caname": "鴨脷洲邨"
+        },
+        {
+            "cacode": "D03",
+            "caname": "鴨脷洲北"
+        },
+        {
+            "cacode": "D04",
+            "caname": "利東一"
+        },
+        {
+            "cacode": "D05",
+            "caname": "利東二"
+        },
+        {
+            "cacode": "D06",
+            "caname": "海怡東"
+        },
+        {
+            "cacode": "D07",
+            "caname": "海怡西"
+        },
+        {
+            "cacode": "D08",
+            "caname": "華貴"
+        },
+        {
+            "cacode": "D09",
+            "caname": "華富南"
+        },
+        {
+            "cacode": "D10",
+            "caname": "華富北"
+        },
+        {
+            "cacode": "D11",
+            "caname": "薄扶林"
+        },
+        {
+            "cacode": "D12",
+            "caname": "置富"
+        },
+        {
+            "cacode": "D13",
+            "caname": "田灣"
+        },
+        {
+            "cacode": "D14",
+            "caname": "石漁"
+        },
+        {
+            "cacode": "D15",
+            "caname": "黃竹坑"
+        },
+        {
+            "cacode": "D16",
+            "caname": "海灣"
+        },
+        {
+            "cacode": "D17",
+            "caname": "赤柱及石澳"
+        }
+    ],
+    "大埔區": [
+        {
+            "cacode": "P01",
+            "caname": "大埔墟"
+        },
+        {
+            "cacode": "P02",
+            "caname": "頌汀"
+        },
+        {
+            "cacode": "P03",
+            "caname": "大埔中"
+        },
+        {
+            "cacode": "P04",
+            "caname": "大元"
+        },
+        {
+            "cacode": "P05",
+            "caname": "富亨"
+        },
+        {
+            "cacode": "P06",
+            "caname": "怡富"
+        },
+        {
+            "cacode": "P07",
+            "caname": "富明新"
+        },
+        {
+            "cacode": "P08",
+            "caname": "廣福及寶湖"
+        },
+        {
+            "cacode": "P09",
+            "caname": "宏福"
+        },
+        {
+            "cacode": "P10",
+            "caname": "大埔滘"
+        },
+        {
+            "cacode": "P11",
+            "caname": "運頭塘"
+        },
+        {
+            "cacode": "P12",
+            "caname": "新富"
+        },
+        {
+            "cacode": "P13",
+            "caname": "林村谷"
+        },
+        {
+            "cacode": "P14",
+            "caname": "寶雅"
+        },
+        {
+            "cacode": "P15",
+            "caname": "太和"
+        },
+        {
+            "cacode": "P16",
+            "caname": "舊墟及太湖"
+        },
+        {
+            "cacode": "P17",
+            "caname": "康樂園"
+        },
+        {
+            "cacode": "P18",
+            "caname": "船灣"
+        },
+        {
+            "cacode": "P19",
+            "caname": "西貢北"
+        }
+    ],
+    "屯門區": [
+        {
+            "cacode": "L01",
+            "caname": "屯門市中心"
+        },
+        {
+            "cacode": "L02",
+            "caname": "兆置"
+        },
+        {
+            "cacode": "L03",
+            "caname": "安定"
+        },
+        {
+            "cacode": "L04",
+            "caname": "兆翠"
+        },
+        {
+            "cacode": "L05",
+            "caname": "友愛南"
+        },
+        {
+            "cacode": "L06",
+            "caname": "友愛北"
+        },
+        {
+            "cacode": "L07",
+            "caname": "翠興"
+        },
+        {
+            "cacode": "L08",
+            "caname": "山景"
+        },
+        {
+            "cacode": "L09",
+            "caname": "景興"
+        },
+        {
+            "cacode": "L10",
+            "caname": "興澤"
+        },
+        {
+            "cacode": "L11",
+            "caname": "新墟"
+        },
+        {
+            "cacode": "L12",
+            "caname": "掃管笏"
+        },
+        {
+            "cacode": "L14",
+            "caname": "恒褔"
+        },
+        {
+            "cacode": "L15",
+            "caname": "悅湖"
+        },
+        {
+            "cacode": "L16",
+            "caname": "兆禧"
+        },
+        {
+            "cacode": "L17",
+            "caname": "湖景"
+        },
+        {
+            "cacode": "L18",
+            "caname": "蝴蝶"
+        },
+        {
+            "cacode": "L19",
+            "caname": "富新"
+        },
+        {
+            "cacode": "L20",
+            "caname": "樂翠"
+        },
+        {
+            "cacode": "L21",
+            "caname": "龍門"
+        },
+        {
+            "cacode": "L22",
+            "caname": "新景"
+        },
+        {
+            "cacode": "L23",
+            "caname": "良景"
+        },
+        {
+            "cacode": "L24",
+            "caname": "田景"
+        },
+        {
+            "cacode": "L25",
+            "caname": "寶田"
+        },
+        {
+            "cacode": "L26",
+            "caname": "建生"
+        },
+        {
+            "cacode": "L27",
+            "caname": "兆康"
+        },
+        {
+            "cacode": "L29",
+            "caname": "屯門鄉郊"
+        },
+        {
+            "cacode": "L30",
+            "caname": "富泰"
+        },
+        {
+            "cacode": "L31",
+            "caname": "景峰"
+        }
+    ],
+    "東區": [
+        {
+            "cacode": "C01",
+            "caname": "太古城西"
+        },
+        {
+            "cacode": "C02",
+            "caname": "太古城東"
+        },
+        {
+            "cacode": "C03",
+            "caname": "鯉景灣"
+        },
+        {
+            "cacode": "C04",
+            "caname": "西灣河"
+        },
+        {
+            "cacode": "C05",
+            "caname": "愛秩序灣"
+        },
+        {
+            "cacode": "C06",
+            "caname": "筲箕灣"
+        },
+        {
+            "cacode": "C07",
+            "caname": "阿公岩"
+        },
+        {
+            "cacode": "C08",
+            "caname": "杏花邨"
+        },
+        {
+            "cacode": "C09",
+            "caname": "翠灣"
+        },
+        {
+            "cacode": "C10",
+            "caname": "欣藍"
+        },
+        {
+            "cacode": "C11",
+            "caname": "小西灣"
+        },
+        {
+            "cacode": "C12",
+            "caname": "景怡"
+        },
+        {
+            "cacode": "C13",
+            "caname": "環翠"
+        },
+        {
+            "cacode": "C14",
+            "caname": "翡翠"
+        },
+        {
+            "cacode": "C15",
+            "caname": "柏架山"
+        },
+        {
+            "cacode": "C16",
+            "caname": "寶馬山"
+        },
+        {
+            "cacode": "C17",
+            "caname": "炮台山"
+        },
+        {
+            "cacode": "C18",
+            "caname": "城市花園"
+        },
+        {
+            "cacode": "C19",
+            "caname": "和富"
+        },
+        {
+            "cacode": "C20",
+            "caname": "堡壘"
+        },
+        {
+            "cacode": "C21",
+            "caname": "錦屏"
+        },
+        {
+            "cacode": "C22",
+            "caname": "丹拿"
+        },
+        {
+            "cacode": "C23",
+            "caname": "健康村"
+        },
+        {
+            "cacode": "C24",
+            "caname": "鰂魚涌"
+        },
+        {
+            "cacode": "C25",
+            "caname": "南豐"
+        },
+        {
+            "cacode": "C26",
+            "caname": "康怡"
+        },
+        {
+            "cacode": "C27",
+            "caname": "康山"
+        },
+        {
+            "cacode": "C28",
+            "caname": "興東"
+        },
+        {
+            "cacode": "C29",
+            "caname": "下耀東"
+        },
+        {
+            "cacode": "C30",
+            "caname": "上耀東"
+        },
+        {
+            "cacode": "C31",
+            "caname": "興民"
+        },
+        {
+            "cacode": "C32",
+            "caname": "樂康"
+        },
+        {
+            "cacode": "C33",
+            "caname": "翠德"
+        },
+        {
+            "cacode": "C34",
+            "caname": "漁灣"
+        },
+        {
+            "cacode": "C35",
+            "caname": "佳曉"
+        }
+    ],
+    "沙田區": [
+        {
+            "cacode": "R01",
+            "caname": "沙田市中心"
+        },
+        {
+            "cacode": "R02",
+            "caname": "瀝源"
+        },
+        {
+            "cacode": "R03",
+            "caname": "禾輋邨"
+        },
+        {
+            "cacode": "R04",
+            "caname": "第一城"
+        },
+        {
+            "cacode": "R05",
+            "caname": "愉城"
+        },
+        {
+            "cacode": "R06",
+            "caname": "王屋"
+        },
+        {
+            "cacode": "R07",
+            "caname": "沙角"
+        },
+        {
+            "cacode": "R08",
+            "caname": "博康"
+        },
+        {
+            "cacode": "R09",
+            "caname": "水泉澳"
+        },
+        {
+            "cacode": "R11",
+            "caname": "秦豐"
+        },
+        {
+            "cacode": "R12",
+            "caname": "新田圍"
+        },
+        {
+            "cacode": "R13",
+            "caname": "翠田"
+        },
+        {
+            "cacode": "R14",
+            "caname": "顯嘉"
+        },
+        {
+            "cacode": "R15",
+            "caname": "下城門"
+        },
+        {
+            "cacode": "R16",
+            "caname": "雲城"
+        },
+        {
+            "cacode": "R17",
+            "caname": "徑口"
+        },
+        {
+            "cacode": "R18",
+            "caname": "田心"
+        },
+        {
+            "cacode": "R19",
+            "caname": "翠嘉"
+        },
+        {
+            "cacode": "R20",
+            "caname": "大圍"
+        },
+        {
+            "cacode": "R21",
+            "caname": "松田"
+        },
+        {
+            "cacode": "R22",
+            "caname": "穗禾"
+        },
+        {
+            "cacode": "R23",
+            "caname": "火炭"
+        },
+        {
+            "cacode": "R24",
+            "caname": "駿馬"
+        },
+        {
+            "cacode": "R25",
+            "caname": "海嵐"
+        },
+        {
+            "cacode": "R27",
+            "caname": "錦濤"
+        },
+        {
+            "cacode": "R28",
+            "caname": "馬鞍山市中心"
+        },
+        {
+            "cacode": "R29",
+            "caname": "烏溪沙"
+        },
+        {
+            "cacode": "R30",
+            "caname": "利安"
+        },
+        {
+            "cacode": "R31",
+            "caname": "富龍"
+        },
+        {
+            "cacode": "R32",
+            "caname": "錦英"
+        },
+        {
+            "cacode": "R33",
+            "caname": "耀安"
+        },
+        {
+            "cacode": "R34",
+            "caname": "恆安"
+        },
+        {
+            "cacode": "R35",
+            "caname": "大水坑"
+        },
+        {
+            "cacode": "R36",
+            "caname": "鞍泰"
+        },
+        {
+            "cacode": "R37",
+            "caname": "愉欣"
+        },
+        {
+            "cacode": "R38",
+            "caname": "帝怡"
+        },
+        {
+            "cacode": "R40",
+            "caname": "廣康"
+        },
+        {
+            "cacode": "R41",
+            "caname": "廣源"
+        }
+    ],
+    "油尖旺區": [
+        {
+            "cacode": "E01",
+            "caname": "尖沙咀西"
+        },
+        {
+            "cacode": "E03",
+            "caname": "佐敦西"
+        },
+        {
+            "cacode": "E04",
+            "caname": "油麻地南"
+        },
+        {
+            "cacode": "E05",
+            "caname": "富榮"
+        },
+        {
+            "cacode": "E06",
+            "caname": "旺角西"
+        },
+        {
+            "cacode": "E07",
+            "caname": "富柏"
+        },
+        {
+            "cacode": "E08",
+            "caname": "奧運"
+        },
+        {
+            "cacode": "E09",
+            "caname": "櫻桃"
+        },
+        {
+            "cacode": "E10",
+            "caname": "大角咀南"
+        },
+        {
+            "cacode": "E11",
+            "caname": "大角咀北"
+        },
+        {
+            "cacode": "E12",
+            "caname": "大南"
+        },
+        {
+            "cacode": "E13",
+            "caname": "旺角北"
+        },
+        {
+            "cacode": "E14",
+            "caname": "旺角東"
+        },
+        {
+            "cacode": "E15",
+            "caname": "旺角南"
+        },
+        {
+            "cacode": "E16",
+            "caname": "油麻地北"
+        },
+        {
+            "cacode": "E17",
+            "caname": "尖東及京士柏"
+        },
+        {
+            "cacode": "E18",
+            "caname": "佐敦北"
+        },
+        {
+            "cacode": "E19",
+            "caname": "佐敦南"
+        },
+        {
+            "cacode": "E20",
+            "caname": "尖沙咀中"
+        }
+    ],
+    "深水埗區": [
+        {
+            "cacode": "F01",
+            "caname": "寶麗"
+        },
+        {
+            "cacode": "F02",
+            "caname": "長沙灣"
+        },
+        {
+            "cacode": "F03",
+            "caname": "南昌北"
+        },
+        {
+            "cacode": "F04",
+            "caname": "石硤尾"
+        },
+        {
+            "cacode": "F05",
+            "caname": "南昌東"
+        },
+        {
+            "cacode": "F06",
+            "caname": "南昌南"
+        },
+        {
+            "cacode": "F07",
+            "caname": "南昌中"
+        },
+        {
+            "cacode": "F08",
+            "caname": "南昌西"
+        },
+        {
+            "cacode": "F09",
+            "caname": "富昌"
+        },
+        {
+            "cacode": "F10",
+            "caname": "麗閣"
+        },
+        {
+            "cacode": "F11",
+            "caname": "幸福"
+        },
+        {
+            "cacode": "F13",
+            "caname": "荔枝角中"
+        },
+        {
+            "cacode": "F14",
+            "caname": "荔枝角南"
+        },
+        {
+            "cacode": "F15",
+            "caname": "美孚南"
+        },
+        {
+            "cacode": "F16",
+            "caname": "美孚中"
+        },
+        {
+            "cacode": "F17",
+            "caname": "美孚北"
+        },
+        {
+            "cacode": "F18",
+            "caname": "荔枝角北"
+        },
+        {
+            "cacode": "F19",
+            "caname": "元州"
+        },
+        {
+            "cacode": "F21",
+            "caname": "李鄭屋"
+        },
+        {
+            "cacode": "F22",
+            "caname": "龍坪及上白田"
+        },
+        {
+            "cacode": "F23",
+            "caname": "下白田"
+        },
+        {
+            "cacode": "F24",
+            "caname": "又一村"
+        },
+        {
+            "cacode": "F25",
+            "caname": "南山、大坑東及大坑西"
+        }
+    ],
+    "灣仔區": [
+        {
+            "cacode": "B01",
+            "caname": "軒尼詩"
+        },
+        {
+            "cacode": "B02",
+            "caname": "愛群"
+        },
+        {
+            "cacode": "B03",
+            "caname": "鵝頸"
+        },
+        {
+            "cacode": "B04",
+            "caname": "銅鑼灣"
+        },
+        {
+            "cacode": "B05",
+            "caname": "維園"
+        },
+        {
+            "cacode": "B06",
+            "caname": "天后"
+        },
+        {
+            "cacode": "B07",
+            "caname": "大坑"
+        },
+        {
+            "cacode": "B08",
+            "caname": "渣甸山"
+        },
+        {
+            "cacode": "B09",
+            "caname": "樂活"
+        },
+        {
+            "cacode": "B10",
+            "caname": "跑馬地"
+        },
+        {
+            "cacode": "B11",
+            "caname": "司徒拔道"
+        },
+        {
+            "cacode": "B12",
+            "caname": "修頓"
+        },
+        {
+            "cacode": "B13",
+            "caname": "大佛口"
+        }
+    ],
+    "荃灣區": [
+        {
+            "cacode": "K01",
+            "caname": "德華"
+        },
+        {
+            "cacode": "K02",
+            "caname": "楊屋道"
+        },
+        {
+            "cacode": "K04",
+            "caname": "海濱"
+        },
+        {
+            "cacode": "K05",
+            "caname": "荃灣西"
+        },
+        {
+            "cacode": "K06",
+            "caname": "祈德尊"
+        },
+        {
+            "cacode": "K07",
+            "caname": "荃灣中心"
+        },
+        {
+            "cacode": "K08",
+            "caname": "愉景"
+        },
+        {
+            "cacode": "K09",
+            "caname": "福來"
+        },
+        {
+            "cacode": "K10",
+            "caname": "綠楊"
+        },
+        {
+            "cacode": "K11",
+            "caname": "馬灣"
+        },
+        {
+            "cacode": "K12",
+            "caname": "荃灣郊區"
+        },
+        {
+            "cacode": "K13",
+            "caname": "汀深"
+        },
+        {
+            "cacode": "K14",
+            "caname": "麗濤"
+        },
+        {
+            "cacode": "K15",
+            "caname": "荃威"
+        },
+        {
+            "cacode": "K16",
+            "caname": "象石"
+        },
+        {
+            "cacode": "K17",
+            "caname": "石圍角"
+        },
+        {
+            "cacode": "K18",
+            "caname": "梨木樹西"
+        },
+        {
+            "cacode": "K19",
+            "caname": "梨木樹東"
+        }
+    ],
+    "葵青區": [
+        {
+            "cacode": "S01",
+            "caname": "葵興"
+        },
+        {
+            "cacode": "S02",
+            "caname": "葵聯"
+        },
+        {
+            "cacode": "S03",
+            "caname": "葵盛東邨"
+        },
+        {
+            "cacode": "S04",
+            "caname": "上大窩口"
+        },
+        {
+            "cacode": "S05",
+            "caname": "下大窩口"
+        },
+        {
+            "cacode": "S06",
+            "caname": "葵涌邨南"
+        },
+        {
+            "cacode": "S07",
+            "caname": "葵涌邨北"
+        },
+        {
+            "cacode": "S08",
+            "caname": "石蔭"
+        },
+        {
+            "cacode": "S09",
+            "caname": "大白田西"
+        },
+        {
+            "cacode": "S10",
+            "caname": "大白田東"
+        },
+        {
+            "cacode": "S11",
+            "caname": "安蔭"
+        },
+        {
+            "cacode": "S13",
+            "caname": "石籬南"
+        },
+        {
+            "cacode": "S14",
+            "caname": "葵芳"
+        },
+        {
+            "cacode": "S16",
+            "caname": "華麗"
+        },
+        {
+            "cacode": "S17",
+            "caname": "荔華"
+        },
+        {
+            "cacode": "S18",
+            "caname": "祖堯"
+        },
+        {
+            "cacode": "S19",
+            "caname": "荔景"
+        },
+        {
+            "cacode": "S20",
+            "caname": "葵盛西邨"
+        },
+        {
+            "cacode": "S21",
+            "caname": "安灝"
+        },
+        {
+            "cacode": "S22",
+            "caname": "偉盈"
+        },
+        {
+            "cacode": "S23",
+            "caname": "青衣邨"
+        },
+        {
+            "cacode": "S24",
+            "caname": "翠怡"
+        },
+        {
+            "cacode": "S25",
+            "caname": "長青"
+        },
+        {
+            "cacode": "S26",
+            "caname": "長康"
+        },
+        {
+            "cacode": "S27",
+            "caname": "盛康"
+        },
+        {
+            "cacode": "S28",
+            "caname": "青衣南"
+        },
+        {
+            "cacode": "S29",
+            "caname": "長亨"
+        },
+        {
+            "cacode": "S30",
+            "caname": "青發"
+        },
+        {
+            "cacode": "S31",
+            "caname": "長安"
+        }
+    ],
+    "西貢區": [
+        {
+            "cacode": "Q01",
+            "caname": "西貢市中心"
+        },
+        {
+            "cacode": "Q02",
+            "caname": "白沙灣"
+        },
+        {
+            "cacode": "Q03",
+            "caname": "西貢離島"
+        },
+        {
+            "cacode": "Q04",
+            "caname": "坑口東"
+        },
+        {
+            "cacode": "Q05",
+            "caname": "坑口西"
+        },
+        {
+            "cacode": "Q06",
+            "caname": "彩健"
+        },
+        {
+            "cacode": "Q07",
+            "caname": "健明"
+        },
+        {
+            "cacode": "Q08",
+            "caname": "都善"
+        },
+        {
+            "cacode": "Q09",
+            "caname": "維景"
+        },
+        {
+            "cacode": "Q10",
+            "caname": "海晉"
+        },
+        {
+            "cacode": "Q12",
+            "caname": "富君"
+        },
+        {
+            "cacode": "Q13",
+            "caname": "澳唐"
+        },
+        {
+            "cacode": "Q14",
+            "caname": "尚德"
+        },
+        {
+            "cacode": "Q15",
+            "caname": "廣明"
+        },
+        {
+            "cacode": "Q16",
+            "caname": "康景"
+        },
+        {
+            "cacode": "Q17",
+            "caname": "翠林"
+        },
+        {
+            "cacode": "Q18",
+            "caname": "寶林"
+        },
+        {
+            "cacode": "Q19",
+            "caname": "欣英"
+        },
+        {
+            "cacode": "Q20",
+            "caname": "慧茵"
+        },
+        {
+            "cacode": "Q22",
+            "caname": "景林"
+        },
+        {
+            "cacode": "Q23",
+            "caname": "厚德"
+        },
+        {
+            "cacode": "Q24",
+            "caname": "富藍"
+        },
+        {
+            "cacode": "Q25",
+            "caname": "德明"
+        },
+        {
+            "cacode": "Q26",
+            "caname": "南安"
+        },
+        {
+            "cacode": "Q27",
+            "caname": "軍寶"
+        },
+        {
+            "cacode": "Q28",
+            "caname": "環保北"
+        },
+        {
+            "cacode": "Q29",
+            "caname": "環保南"
+        }
+    ],
+    "觀塘區": [
+        {
+            "cacode": "J01",
+            "caname": "觀塘中心"
+        },
+        {
+            "cacode": "J02",
+            "caname": "九龍灣"
+        },
+        {
+            "cacode": "J03",
+            "caname": "啟業"
+        },
+        {
+            "cacode": "J04",
+            "caname": "麗晶"
+        },
+        {
+            "cacode": "J05",
+            "caname": "坪石"
+        },
+        {
+            "cacode": "J06",
+            "caname": "彩德"
+        },
+        {
+            "cacode": "J07",
+            "caname": "佐敦谷"
+        },
+        {
+            "cacode": "J08",
+            "caname": "順天"
+        },
+        {
+            "cacode": "J09",
+            "caname": "雙順"
+        },
+        {
+            "cacode": "J10",
+            "caname": "安利"
+        },
+        {
+            "cacode": "J11",
+            "caname": "觀塘安泰"
+        },
+        {
+            "cacode": "J12",
+            "caname": "秀茂坪北"
+        },
+        {
+            "cacode": "J13",
+            "caname": "秀茂坪中"
+        },
+        {
+            "cacode": "J15",
+            "caname": "秀茂坪南"
+        },
+        {
+            "cacode": "J17",
+            "caname": "廣德"
+        },
+        {
+            "cacode": "J18",
+            "caname": "興田"
+        },
+        {
+            "cacode": "J19",
+            "caname": "藍田"
+        },
+        {
+            "cacode": "J20",
+            "caname": "平田"
+        },
+        {
+            "cacode": "J21",
+            "caname": "栢雅"
+        },
+        {
+            "cacode": "J22",
+            "caname": "俊翔"
+        },
+        {
+            "cacode": "J24",
+            "caname": "油翠"
+        },
+        {
+            "cacode": "J25",
+            "caname": "油麗"
+        },
+        {
+            "cacode": "J26",
+            "caname": "油塘西"
+        },
+        {
+            "cacode": "J27",
+            "caname": "麗港城"
+        },
+        {
+            "cacode": "J28",
+            "caname": "景田"
+        },
+        {
+            "cacode": "J29",
+            "caname": "翠屏"
+        },
+        {
+            "cacode": "J30",
+            "caname": "曉麗"
+        },
+        {
+            "cacode": "J31",
+            "caname": "寶樂"
+        },
+        {
+            "cacode": "J32",
+            "caname": "月華"
+        },
+        {
+            "cacode": "J33",
+            "caname": "協康"
+        },
+        {
+            "cacode": "J34",
+            "caname": "樂華南"
+        },
+        {
+            "cacode": "J35",
+            "caname": "樂華北"
+        },
+        {
+            "cacode": "J36",
+            "caname": "康樂"
+        },
+        {
+            "cacode": "J37",
+            "caname": "定安"
+        },
+        {
+            "cacode": "J38",
+            "caname": "牛頭角上邨"
+        },
+        {
+            "cacode": "J39",
+            "caname": "牛頭角下邨"
+        },
+        {
+            "cacode": "J40",
+            "caname": "淘大"
+        }
+    ],
+    "離島區": [
+        {
+            "cacode": "T01",
+            "caname": "大嶼山"
+        },
+        {
+            "cacode": "T02",
+            "caname": "滿逸"
+        },
+        {
+            "cacode": "T03",
+            "caname": "逸東邨北"
+        },
+        {
+            "cacode": "T04",
+            "caname": "東涌南"
+        },
+        {
+            "cacode": "T05",
+            "caname": "東涌中"
+        },
+        {
+            "cacode": "T07",
+            "caname": "愉景灣"
+        },
+        {
+            "cacode": "T08",
+            "caname": "坪洲及喜靈洲"
+        },
+        {
+            "cacode": "T09",
+            "caname": "南丫及蒲台"
+        },
+        {
+            "cacode": "T10",
+            "caname": "長洲"
+        }
+    ],
+    "黃大仙區": [
+        {
+            "cacode": "H01",
+            "caname": "龍趣"
+        },
+        {
+            "cacode": "H02",
+            "caname": "龍下"
+        },
+        {
+            "cacode": "H03",
+            "caname": "龍上"
+        },
+        {
+            "cacode": "H04",
+            "caname": "鳳凰"
+        },
+        {
+            "cacode": "H05",
+            "caname": "鳳德"
+        },
+        {
+            "cacode": "H06",
+            "caname": "龍星"
+        },
+        {
+            "cacode": "H07",
+            "caname": "新蒲崗"
+        },
+        {
+            "cacode": "H08",
+            "caname": "東頭"
+        },
+        {
+            "cacode": "H09",
+            "caname": "東美"
+        },
+        {
+            "cacode": "H10",
+            "caname": "樂富"
+        },
+        {
+            "cacode": "H11",
+            "caname": "橫頭磡"
+        },
+        {
+            "cacode": "H12",
+            "caname": "天強"
+        },
+        {
+            "cacode": "H13",
+            "caname": "翠竹及鵬程"
+        },
+        {
+            "cacode": "H14",
+            "caname": "竹園南"
+        },
+        {
+            "cacode": "H15",
+            "caname": "竹園北"
+        },
+        {
+            "cacode": "H16",
+            "caname": "慈雲西"
+        },
+        {
+            "cacode": "H17",
+            "caname": "正愛"
+        },
+        {
+            "cacode": "H18",
+            "caname": "正安"
+        },
+        {
+            "cacode": "H19",
+            "caname": "慈雲東"
+        },
+        {
+            "cacode": "H20",
+            "caname": "瓊富"
+        },
+        {
+            "cacode": "H21",
+            "caname": "彩雲東"
+        },
+        {
+            "cacode": "H22",
+            "caname": "彩雲南"
+        },
+        {
+            "cacode": "H23",
+            "caname": "彩雲西"
+        },
+        {
+            "cacode": "H24",
+            "caname": "池彩"
+        },
+        {
+            "cacode": "H25",
+            "caname": "彩虹"
+        }
+    ]
+}
