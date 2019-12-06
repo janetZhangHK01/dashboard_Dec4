@@ -11,12 +11,14 @@ import allSmallArea from '../smallArea/allSmallArea.json'
 import voter from "../smallArea/voter.js"
 import population from "../smallArea/population.js"
 import {HorizontalBar} from 'react-chartjs-2';
+import {Bar} from 'react-chartjs-2';
 import {Doughnut} from 'react-chartjs-2';
 
 // carousel
 import Carousel from 'react-bootstrap/Carousel';
 import rightIcon from '../img/icons8-chevron-right-48.png';
 import leftIcon from '../img/icons8-chevron-left-48.png'
+
 
     // The forwardRef is important!!
 // Dropdown needs access to the DOM node in order to position the Menu
@@ -32,14 +34,14 @@ const CustomMenu = React.forwardRef(
       return (
         <div
           ref={ref}
-          style={{height: '210px', overflowY: 'scroll'}}
+          style={{width: '170px', height: '210px', overflowY: 'scroll'}}
           className={className}
           aria-labelledby={labeledBy}
         >
           <FormControl
             autoFocus
-            className="mx-3 my-2 w-auto"
-            placeholder="搜尋小選區..."
+            className="mx-3 my-2 fix-width"
+            placeholder="搜尋..."
             onChange={e => setValue(e.target.value)}
             value={value}
           />
@@ -72,7 +74,6 @@ function DistrictsEighteen () {
 
     useEffect(() => {
         setData({
-            // chart y axis label
             labels: selectedReport[chartTheme][selectedSub]['chartLabel'],   
             datasets:[{
                 // chart legend
@@ -82,18 +83,78 @@ function DistrictsEighteen () {
             }]
            
         });
-        setOption({ 
+        setOption({
+                responsive:false,
+                width:100,
+                height:100, 
                 title: {display:true,
-                text: selectedReport === voter? chartTheme === 'age'? (selectedSub +'選民年齡組別分佈'):(selectedSub +'選民性別分佈') :chartTheme === 'income'?(selectedSub +'家庭住戶每月收入分佈'): chartTheme === 'edu'?(selectedSub +'選區人口最高教育程度分佈'):(selectedSub +'住所類型分佈'),
-                fontSize:20
+                // text: selectedReport === voter? chartTheme === 'age'? (selectedSub +'選民年齡組別分佈'):(selectedSub +'選民性別分佈') :chartTheme === 'income'?[(selectedSub +'家庭住戶每月收入分佈'),'收入中位數' + (selectedReport[chartTheme][selectedSub]['medianNum']).toString() + '元']: chartTheme === 'edu'?(selectedSub +'選區人口最高教育程度分佈'):(selectedSub +'住所類型分佈'),
+                text: selectedReport === voter? chartTheme === 'age'? (selectedSub +'選民年齡組別分佈'):(selectedSub +'選民性別分佈') :chartTheme === 'income'?[(selectedSub +'家庭住戶月收入分佈') + '(中位數' + (selectedReport[chartTheme][selectedSub]['medianNum']).toString() + '元)']: chartTheme === 'edu'?(selectedSub +'選區人口最高教育程度分佈'):(selectedSub +'住所類型分佈'),
+                fontSize: window.screen.width >768 ? 20:13,
               },
                 layout:{
                     padding:{
-                        left:200,
-                        right:200,
-                        bottom: 100
+                        top: 0,
+                        right: 5,
+                        left: 5,
+                        bottom:0
                     }
                 },
+                // width: 320,
+                // height: 480,
+                scales:chartTheme === 'age'|| chartTheme === 'income'?{
+                    yAxes:[{
+                        ticks:{
+                            display:true,
+                            fontSize: window.screen.width >768?13:window.screen.width >320? 11:8,
+                            fontColor:'rgba(0, 0, 0, 0.87)'
+                        },
+                        gridLines: {
+                            display:true
+                        } 
+                    }],
+                    xAxes:[{
+                        // offset:false,
+                        minBarLength:400,
+                        // barPercentage: 0.2,
+                        // categoryPercentage: 0.3,
+                        barThickness:'flex',
+                        gridLines: {
+                            display:false,
+                        },
+                        ticks:{
+                            fontSize:window.screen.width >768?13:window.screen.width >320? 11:8,
+                            fontColor:'rgba(0, 0, 0, 0.87)',
+                            display:true,
+                            // fontWeight: 900
+                        }
+                    }]
+                }:{
+                    yAxes:[{
+                        ticks:{
+                            display:false,
+                            fontColor:'rgba(0, 0, 0, 0.87)'
+
+                        },
+                        gridLines: {
+                            display:false
+                            // color: "rgba(0, 0, 0, 0)",
+                        } 
+                    }],
+                    xAxes:[{
+                        gridLines: {
+                            display:false
+                            // color: "rgba(0, 0, 0, 0)",
+                        },
+                        ticks:{
+                            fontSize: window.screen.width >768 ?13:window.screen.width >320? 11:8,
+                            fontColor:'rgba(0, 0, 0, 0.87)',
+                            display:false
+                        }
+                    }]
+                },
+                responsive: true,
+                matainAspectRatio:1,
                 legend:chartTheme === 'age' || chartTheme ===  'income'?  {display:false}:{display:true,position:'right', align:'start'},     
                 tooltips: {
                     callbacks: {
@@ -236,7 +297,7 @@ function DistrictsEighteen () {
             </Accordion>
         </NavDropdown>
         {/* sub district dropdown */}
-        <Dropdown id="nav-dropdown" style={{paddingLeft:'21px'}}>
+        <Dropdown id="nav-dropdown" style={{paddingLeft:'2px'}}>
             <Dropdown.Toggle as={CustomToggle} id="dropdown-custom-components">
             {selectedSub}
             </Dropdown.Toggle>
@@ -256,23 +317,23 @@ function DistrictsEighteen () {
         
         {selectedReport === voter ? 
          (
-        <Carousel activeIndex={carouselIndex} direction={directioin} onSelect={handleSelect} interval={false} slide={false} prevIcon={<img alt="" src={leftIcon}/>} nextIcon={<img alt= "" src={rightIcon}/>} indicators={false}>
-        <Carousel.Item>
-            <HorizontalBar data={chartData} options={chartOption}></HorizontalBar>
+        <Carousel className='chartContainer' activeIndex={carouselIndex} direction={directioin} onSelect={handleSelect} interval={false} slide={false} prevIcon={<img alt="" src={leftIcon}/>} nextIcon={<img alt= "" src={rightIcon}/>} indicators={false}>
+        <Carousel.Item className='chartSize'>
+            <Bar data={chartData} options={chartOption}></Bar>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className='chartSize'>
             <Doughnut data={chartData} options={chartOption}></Doughnut>
         </Carousel.Item>
         </Carousel>
         ): (
         <Carousel activeIndex={carousePoplIndex} direction={directioinPop} onSelect={handelPopSelect} interval={false} slide={false} prevIcon={<img alt="" src={leftIcon}/>} nextIcon={<img alt= "" src={rightIcon}/>} indicators={false}>
-        <Carousel.Item>
-            <HorizontalBar data={chartData} options={chartOption}></HorizontalBar>
+        <Carousel.Item className='chartSize'>
+            <Bar data={chartData} options={chartOption}></Bar>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className='chartSize'>
             <Doughnut data={chartData} options={chartOption}></Doughnut>
         </Carousel.Item>
-        <Carousel.Item>
+        <Carousel.Item className='chartSize'>
             <Doughnut data={chartData} options={chartOption}></Doughnut>
         </Carousel.Item>
         </Carousel>)
