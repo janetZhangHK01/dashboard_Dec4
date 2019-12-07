@@ -84,9 +84,9 @@ function DistrictsEighteen () {
            
         });
         setOption({
-                responsive:false,
-                width:100,
-                height:100, 
+                // responsive:false,
+                // width:100,
+                // height:100, 
                 title: {display:true,
                 // text: selectedReport === voter? chartTheme === 'age'? (selectedSub +'選民年齡組別分佈'):(selectedSub +'選民性別分佈') :chartTheme === 'income'?[(selectedSub +'家庭住戶每月收入分佈'),'收入中位數' + (selectedReport[chartTheme][selectedSub]['medianNum']).toString() + '元']: chartTheme === 'edu'?(selectedSub +'選區人口最高教育程度分佈'):(selectedSub +'住所類型分佈'),
                 text: selectedReport === voter? chartTheme === 'age'? (selectedSub +'選民年齡組別分佈'):(selectedSub +'選民性別分佈') :chartTheme === 'income'?[(selectedSub +'家庭住戶月收入分佈') + '(中位數' + (selectedReport[chartTheme][selectedSub]['medianNum']).toString() + '元)']: chartTheme === 'edu'?(selectedSub +'選區人口最高教育程度分佈'):(selectedSub +'住所類型分佈'),
@@ -153,8 +153,8 @@ function DistrictsEighteen () {
                         }
                     }]
                 },
-                responsive: true,
-                matainAspectRatio:1,
+                // responsive: true,
+                maintainAspectRatio:false,
                 legend:chartTheme === 'age' || chartTheme ===  'income'?  {display:false}:{display:true,position:'right', align:'start'},     
                 tooltips: {
                     callbacks: {
