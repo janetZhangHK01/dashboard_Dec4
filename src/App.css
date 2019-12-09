@@ -26,24 +26,11 @@
   display: inline-block;
 
 }
-/* .carousel{
-  height:700px;
-} */
-/* .carousel-inner{
-  height: 500px;
-} */
-/* canvas{
-  height: 700px;
-} */
 .carousel-control-prev,
 .carousel-control-next{
-
-    /* width: 20px;
-    height: 20px; */
-    /* padding-left: 5px;
-    padding-right: 5px;
-    padding-top: 500px */
-    /* bottom: 9%; */
+  width: 0%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 @media(max-width: 768px){
   body{
@@ -63,27 +50,30 @@
   } */
   .carousel-control-prev,
   .carousel-control-next{
-/* 
-      width: 20px;
-      height: 20px;
-      bottom: 9%; */
+    width: 0%;
+    padding-left: 9px;
+    padding-right: 9px;
+    /* opacity: .3; */
+    /* width: 30px;
+    height: 20px;  
+    padding-top: calc(100%); */
+
 }
- /* canvas.chartjs-render-monitor{
-    display: block;
-    height:700px;
-    width:320px;
- } */
- /* .chartContainer{
-   display: block;
+
+ .chartContainer{
+   padding-left: 2px;
+   padding-right: 2px;
+   /* display: block; */
    /* max-width: 100%;
    max-height: 100%; 
   height: 500px;
-  width: 640px;
-} */
+  width: 640px;*/
+}
 .chartSize{
-  /* position: relative; */
-  padding-top: 20px; 
+
+  /* padding-top: 150px;  */
   min-height: 370px;
+    /* position: relative; */
   /* width: 100%; */
   /* height: 700px;  */
   /* width: 370px; */
@@ -96,6 +86,7 @@
   max-height: 500px !important; */
 }
 }
+/* on desktop */
 .nav-item a{
   display: inline-block;
 }
@@ -111,8 +102,12 @@
 }  */
 .chartSize{
   /* position: relative; */
-  padding-top: 20px;
+  padding-top: 30px;
   min-height: 370px; 
   /* height: 700px; 
   width: 370; */
 } 
+.chartContainer{
+  padding-left: 17px;
+  padding-right: 17px;
+}

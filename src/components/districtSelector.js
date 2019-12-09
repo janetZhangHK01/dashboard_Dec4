@@ -88,7 +88,6 @@ function DistrictsEighteen () {
                 // width:100,
                 // height:100, 
                 title: {display:true,
-                // text: selectedReport === voter? chartTheme === 'age'? (selectedSub +'選民年齡組別分佈'):(selectedSub +'選民性別分佈') :chartTheme === 'income'?[(selectedSub +'家庭住戶每月收入分佈'),'收入中位數' + (selectedReport[chartTheme][selectedSub]['medianNum']).toString() + '元']: chartTheme === 'edu'?(selectedSub +'選區人口最高教育程度分佈'):(selectedSub +'住所類型分佈'),
                 text: selectedReport === voter? chartTheme === 'age'? (selectedSub +'選民年齡組別分佈'):(selectedSub +'選民性別分佈') :chartTheme === 'income'?[(selectedSub +'家庭住戶月收入分佈') + '(中位數' + (selectedReport[chartTheme][selectedSub]['medianNum']).toString() + '元)']: chartTheme === 'edu'?(selectedSub +'選區人口最高教育程度分佈'):(selectedSub +'住所類型分佈'),
                 fontSize: window.screen.width >768 ? 20:13,
               },
@@ -100,10 +99,13 @@ function DistrictsEighteen () {
                         bottom:0
                     }
                 },
-                // width: 320,
-                // height: 480,
                 scales:chartTheme === 'age'|| chartTheme === 'income'?{
-                    yAxes:[{
+                    yAxes:[
+                        {
+                        // scaleLabel:{
+                        //     display:true,
+                        //     labelString:'人',
+                        // },
                         ticks:{
                             display:true,
                             fontSize: window.screen.width >768?13:window.screen.width >320? 11:8,
@@ -114,8 +116,11 @@ function DistrictsEighteen () {
                         } 
                     }],
                     xAxes:[{
-                        // offset:false,
-                        minBarLength:400,
+                        // scaleLabel:{
+                        //     display:true,
+                        //     labelString:chartTheme === 'age'?'歲':'元',
+                        // },
+                        // minBarLength:400,
                         // barPercentage: 0.2,
                         // categoryPercentage: 0.3,
                         barThickness:'flex',
@@ -160,7 +165,7 @@ function DistrictsEighteen () {
                     callbacks: {
                         title: function(tooltipItem, data) {
                             var nu=''
-                            chartTheme === 'age'? nu = Number(tooltipItem[0].xLabel).toString(): nu =  data['datasets'][0]['data'][tooltipItem[0].index];
+                            chartTheme === 'age'? nu = data['datasets'][0]['data'][tooltipItem[0].index]: nu =  data['datasets'][0]['data'][tooltipItem[0].index];
                             return nu + ' 人';
                         },
                         label: function(tooltipItem, data) {
@@ -326,7 +331,7 @@ function DistrictsEighteen () {
         </Carousel.Item>
         </Carousel>
         ): (
-        <Carousel activeIndex={carousePoplIndex} direction={directioinPop} onSelect={handelPopSelect} interval={false} slide={false} prevIcon={<img alt="" src={leftIcon}/>} nextIcon={<img alt= "" src={rightIcon}/>} indicators={false}>
+        <Carousel className='chartContainer' activeIndex={carousePoplIndex} direction={directioinPop} onSelect={handelPopSelect} interval={false} slide={false} prevIcon={<img alt="" src={leftIcon}/>} nextIcon={<img alt= "" src={rightIcon}/>} indicators={false}>
         <Carousel.Item className='chartSize'>
             <Bar data={chartData} options={chartOption}></Bar>
         </Carousel.Item>
