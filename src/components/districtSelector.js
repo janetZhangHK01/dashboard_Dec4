@@ -19,6 +19,8 @@ import Carousel from 'react-bootstrap/Carousel';
 import rightIcon from '../img/icons8-chevron-right-48.png';
 import leftIcon from '../img/icons8-chevron-left-48.png'
 
+// tracking
+// import * as TrackEvent from './trackEvent_prod.js'
 
     // The forwardRef is important!!
 // Dropdown needs access to the DOM node in order to position the Menu
@@ -58,6 +60,23 @@ const CustomMenu = React.forwardRef(
 
 // nav-dropdown
 function DistrictsEighteen () {
+    // tracking
+    // let linkText = window.location.href;
+    // console.log(linkText);
+    // let entrySource = (linkText.match(/#/)) ? linkText.match(/#(.*?)(&|$|\?)/)[1] : 'organic';
+    // let article_id = (linkText.match(/utm_source=inline_article/)) ? linkText.match(/utm_source=inline_article_(.*?)(&|$|\?)/)[1] : 'organic';
+    // const [entryS, setEntryS] = useState(entrySource);
+
+    // switch(entryS) {
+    //     case "article":
+    //     case "base":
+    //     case "issue":
+    //         break;
+    //     default:
+    //         entrySource = "organic";
+    // TrackEvent.fireArticlePV(TrackEvent.removehash(window.location.href));
+    // }
+
     const [selectedDsitrict, setDistrict] = useState("中西區");
     const [selectedSub, setSub] = useState("中環");
     const [selectedReport, setReport] = useState(voter);
